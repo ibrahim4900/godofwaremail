@@ -1,53 +1,893 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hangman Game JS</title>
-    <link rel="stylesheet" href="style.css">
+    <title>God of war email</title>
 </head>
 <body>
-    <h1>Hangman Game</h1>
-    <p>CLUE - Throwback to The Good Old Days</p>
-    <div class="game-container">
-        <svg height="250" width="200" class="figure-container">
-            <!-- Rod -->
-            <line x1="60" y1="20" x2="140" y2="20" />
-            <line x1="140" y1="20" x2="140" y2="50" />
-            <line x1="60" y1="20" x2="60" y2="230" />
-            <line x1="20" y1="230" x2="100" y2="230" />
-
-            <!-- Head -->
-            <circle cx="140" cy="70" r="20" class="figure-part" />
-            <!-- Body -->
-            <line x1="140" y1="90" x2="140" y2="150" class="figure-part" />
-            <!-- Arms -->
-            <line x1="140" y1="120" x2="120" y2="100" class="figure-part" />
-            <line x1="140" y1="120" x2="160" y2="100" class="figure-part" />
-            <!-- Legs -->
-            <line x1="140" y1="150" x2="120" y2="180" class="figure-part" />
-            <line x1="140" y1="150" x2="160" y2="180" class="figure-part" />
-        </svg>
-
-        <div class="wrong-letters-container">
-            <div id="wrong-letters"></div>
-        </div>
-        <div class="word" id="word"></div>
-    </div>
-
-    <!-- Container for final message -->
-    <div class="popup-container" id="popup-container">
-        <div class="popup">
-            <h2 id="final-message"></h2>
-            <button id="play-button">Play Again?</button>
-        </div>
-    </div>
-
-    <!-- Notification -->
-    <div class="notification-container" id="notification-container">
-        <p>You have already entered this letter idiot!</p>
-    </div>
-    <script src="script.js"></script>
+    <div>
+        <div><!-- [if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--> <!--  --></div>
+      </div>
+      <style>@font-face{font-family:'SST-Roman';src: url(https://www.playstation.com/en-in/1.40.01/etc/designs/pdc/clientlibs_base/fonts/hinted-SSTPro-Roman.woff) format('woff'); font-weight:400;font-style:normal }
+        @font-face{ font-family:'SST-Roman-Bold';src:url(https://www.playstation.com/en-in/1.40.01/etc/designs/pdc/clientlibs_base/fonts/hinted-SSTPro-Bold.eot);src:url(https://www.playstation.com/en-in/1.40.01/etc/designs/pdc/clientlibs_base/fonts/hinted-SSTPro-Bold.eot?#iefix) format("embedded-opentype"),url(https://www.playstation.com/en-in/1.40.01/etc/designs/pdc/clientlibs_base/fonts/hinted-SSTPro-Bold.woff2) format("woff2"),url(https://www.playstation.com/en-in/1.40.01/etc/designs/pdc/clientlibs_base/fonts/hinted-SSTPro-Bold.woff) format("woff"),url(https://www.playstation.com/en-in/1.40.01/etc/designs/pdc/clientlibs_base/fonts/hinted-SSTPro-Bold.ttf) format("truetype"),url(https://www.playstation.com/en-in/1.40.01/etc/designs/pdc/clientlibs_base/fonts/hinted-SSTPro-Bold.svg#SSTPro-Bold)
+       format("svg");font-weight:500;font-style:normal}
+        body, #body-table, .body-table { height: 100% !important; width: 100% !important; margin: 0; padding: 0; font-family:SST, SST-Roman, Arial, Helvetica, sans-serif; min-width: 100%!important; }
+        a { text-decoration: none; }
+        img, a img { border: 0; outline: none; text-decoration: none; }
+        table, td, th { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass { width: 100%; }
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } 
+        img { -ms-interpolation-mode: bicubic; } 
+        body, table, td, p, a, li, blockquote { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } 
+        #outlook a { padding: 0; }
+        @media only screen and (max-width: 480px) { body { margin: 0 !important; } div[style*="margin: 16px 0"] { margin: 0 !important; font-size: 100% !important; }}
+           /*CTA HOVER STYLES*/
+      .cta-hover_CD3D0F_ON {transition: 0.1s;}
+      .cta-hover_2D64E6_ON {transition: 0.1s;}
+      .cta-hover_CD3D0F_ON:hover {box-shadow: 0px 0px 0px 3px white inset, 0px 0px 0px 1px #CD3D0F!important;}
+      .cta-hover_2D64E6_ON:hover {box-shadow: 0px 0px 0px 3px white inset, 0px 0px 0px 1px #2D64E6!important;}
+        @media only screen and (max-width:480px) {
+         .body, #body-table {background-color:#eeeeee!important;}
+         .hide { display: none!important; }
+         .no-bg { background: none!important; }
+         .mobile_image { display: block !important;  max-height: none !important;}
+         .responsive { width: 100% !important; }
+         .responsiveInner { width: 85% !important; }
+         .ps_logo {width:50px!important; height: 39px!important;}
+         .w100 {width: 100%!important;}
+         .w95 {width: 95%!important;}
+         .w90 {width: 90%!important;}
+         .w85 {width: 85%!important;}
+         .w80 {width: 80%!important;}
+         .w75 {width: 75%!important;}
+         .w70 {width: 70%!important;}
+         .w65 {width: 65%!important;}
+         .w60 {width: 60%!important;}
+         .w55 {width: 55%!important;}
+         .w50 {width: 50%!important;}
+      .w46 {width: 46%!important;}
+         .w47 {width: 47%!important;}
+         .w48 {width: 48%!important;}
+         .w45 {width: 45%!important;}
+         .block { display: block !important; }
+         .display-table {display: table!important;}
+         .inline-block { display: inline-block !important; }
+         .display-header {display: table-header-group!important}
+         .display-footer {display: table-footer-group!important}
+         .float-l {float: left!important;}
+         .float-r {float: right!important;}
+         .cntr {float: none !important; margin: auto !important; text-align: center !important;}
+         #txt-align-cntr {text-align: center!important; margin: auto 0!important; float: none!important;}
+         .hauto { height: auto !important; }
+         .h135 { height: 135px !important; }
+         .h30 { height: 30px !important; }
+         .h25 { height: 25px !important; }
+         .h20 { height: 20px !important; }
+         .h15 { height: 15px !important; }
+         .h100per {height: 100%!important;}
+         .p-0 {padding: 0!important;}
+         .p-b-0 { padding-bottom: 0!important;}
+         .p-t-0 { padding-top: 0!important;}
+         .p-l-0 { padding-left: 0!important;}
+         .p-r-0 { padding-right: 0!important;}
+         .p-b-header {padding-bottom: 7%!important;}
+         .p-t-header {padding-top: 0%!important;} .p-20 { padding: 20px !important; }
+         .p-t-30 { padding-top: 30px !important; }
+         .p-b-30 { padding-bottom: 30px !important; }
+         .p-trl-30 { padding-top: 30px !important; padding-right: 30px !important; padding-left: 30px !important; }
+         .p-t-100per {padding-top: 100%!important;}
+         .m-0-auto { margin: 0 auto !important; }
+         .m-t-10 { margin-top: 10px !important; }
+         .m-t-20 { margin-top: 20px !important; }
+         .m-t-30 { margin-top: 30px !important; }
+         .m-b-10 { margin-bottom: 10px !important; }
+         .m-b-20 { margin-bottom: 20px !important; }
+         .m-b-30 { margin-bottom: 30px !important; }
+         .m-trl-30 { margin-top: 30px !important; margin-right: 30px !important; margin-left: 30px !important; }
+         .fs20 { font-size: 20px !important; }
+         .fs18 { font-size: 18px !important; }
+         .fs16 { font-size: 16px !important; }
+         .fs14 { font-size: 14px !important; }
+         .mobbg-reset { background-position: top center!important;}
+         .mobbg-reset-header { background-position: 50% 50%!important;}
+         .mobbg-reset-top { background-position: top center!important;}
+         .mobbg-reset-bottom { background-position: bottom center!important;}
+         .footer-links {padding: 5px 0px!important;}
+      /*MOBILE IVALDI CSS*/
+      .imageindent_spacerTop_hide_optional_560 {display:none!important;}
+        /*MOBILE ADJUST FOR MB*/
+                  .hero-title-mobile-css {font-size:20px!important; line-height:26px!important; }
+                  .accent-title-mobile-css {font-size:10px!important; line-height:20px!important; }
+                  .paragraph-mobile-css {font-size:14px!important; line-height:24px!important; }
+                  .cta-wrapper-mobile-css {min-width:80px;max-width:250px!important; min-height:40px!important; }
+                  .cta-mobile-css {font-size:14px!important; line-height:17.5px!important;} .cta-mobile-padding-css {padding:11px!important;}
+                  .cta-width-spacer {width:80px!important;}
+                  .cta-height-spacer {height:40px!important;}
+                  .disclaimer-mobile-css{}
+                  .mobile-module-spacers { height:30px!important;}
+                  .mobile-module-inner-spacing-bottom-10 { padding-bottom:10px!important;}
+                  .mobile-module-inner-spacing-bottom-20 { padding-bottom:20px!important;}
+                  .mobile-module-inner-spacing-bottom-30 { padding-bottom:30px!important;}
+                  .mobile-module-inner-spacing-subtitle {padding-bottom:10px!important;}
+        }
+        @media only screen and (max-width:480px) {
+         u + .body .gmail-hide {display: none!important;}
+         body[data-outlook-cycle] { margin: 0!important; width: 100%!important; padding: 0!important;}
+         body[data-outlook-cycle] .gmail-hide {display:none!important;}
+         div#menu {left:0;width:100%;max-height:0!important;overflow:hidden!important;top:40px; transition: all  0.5s!important;} 
+         table.menu th { display: block!important; border-top:0!important;background: none!important; height: auto!important; padding: 5px!important;}
+         div#menu th:first-child {border-top:0!important;background: none!important;}  
+         div#menu th:last-child {border-top:0!important;border-bottom:0px!important; background: none!important;}
+            label.hamburger {cursor:pointer;display: inline-block!important;position:inherit!important;right:0;top:0px!important;z-index:1;padding:0px 0px!important; float: right!important; width: 100%!important;}
+         label.hamburger img {width:34px!important;height:42px!important; float: right!important; margin-right: 10px!important; text-align: right!important; display: block!important;}
+         #hidden-checkbox:checked ~ div#menu {max-height:300px!important; display: block!important; padding-bottom: 20px!important}
+         .nav-bgcolor {background: rgba(0,0,0,0.4)!important;}
+         }
+         @media only screen and (max-width:320px) {
+         .responsive-bp320 { width: 100% !important; }
+         .w100-bp320 { width: 100% !important; }
+         .w85-bp320 { width: 85% !important; }
+         .w60-bp320 { width: 60% !important; }
+         .block-bp320 { display: block !important; }
+         .hauto-bp320 { height: auto !important; }
+         .text-center-bp320 { text-align: center !important; }
+         .cntr-bp320 {float: none !important; margin: auto !important; text-align: center !important;}
+         .coverbg-bp320 {background-size: cover!important;}
+         .m-b-20-bp320 { margin-bottom: 20px!important;}
+         .hide-bp320 {display:none!important;}
+         .body-table { background-size: 100% 400px!important}
+         .no-bg-bp320 {background: none!important;}
+         .footer-links {width: 100%!important; padding: 5px 0px!important; display: block!important;}
+         .body-bg {background-size: 110%!important;}
+         .nav-bgcolor {background: rgba(22,60,110,1)!important;}
+        }</style>
+      <div>
+        <div><!-- [if mso]><style> body, #body-table, .body-table, table, td, th, span, font, a {font-family: Arial, Helvetica, sans-serif !important;}</style><![endif]--></div>
+      </div>
+      <style></style>
+      <div><!--  -->
+        <center>
+          <table class="responsive" style="width: 100%; background: #FFFFFF; min-width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td align="center" valign="top">
+                  <table id="main-wrapper" class="responsive" border="0" width="740" cellspacing="0" cellpadding="0" align="center" bgcolor="#EEEEEE">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" bgcolor="#EEEEEE"><!-- -->
+                          <table id="header-section" class="responsive" border="0" width="740" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td class="mobbg-reset-header" style="background-position: -9999px; background-size: cover; background-repeat: no-repeat;" align="center" bgcolor="#003a9d" width="740">
+                                  <table class="responsive" border="0" width="740" cellspacing="0" cellpadding="0" align="center">
+                                    <tbody>
+                                      <tr>
+                                        <td class="no-bg hauto" style="height: 100px; background-repeat: no-repeat; background-position: top center; background-color: #003a9d;" align="center" valign="top" bgcolor="#003a9d" height="100"><!-- [if gte mso 9]>
+                                      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:739px;height:100px;">
+                                      <v:fill type="frame" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/32/MB-HEAD-740-BG-DESKv2.jpg" color="#003a9d" />
+                                      <v:textbox inset="0,0,0,0">
+                                      <![endif]-->
+                                          <div>
+                                            <table class="w85 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="mobbg-header-height" style="vertical-align: top;" align="left" valign="top">
+                                                    <table class="w100" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="mobile-module-spacers" style="height: 20px; line-height: 20px; font-size: 0px; mso-line-height-rule: exactly;" height="20">&nbsp;</td>
+                                                        </tr>
+                                                        <tr class="hide">
+                                                          <td dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff; height: 21px; line-height: 21px; mso-line-height-rule: exactly; display: block; direction: ltr; padding-bottom: 10px;" align="left" valign="middle">Only on PS4 and PS5 consoles <!-- [if !mso 9]><!--> 
+                                                            <span class="gmail-hide" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0; mso-hide: all; line-height: 1px; max-height: 0px; max-width: 0px; overflow: hidden;">‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp; &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</span> <!--<![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center" valign="top">
+                                                            <table class="w100" role="presentation" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <th class="block-bp320 w100-bp320 hauto-bp320 cntr-bp320" align="left" valign="middle" width="50">
+                                                                    <a href="https://click.playstationemail.com/?qs=bf3cfaea8315abf2638688cc2e220b5dcc1812c6fa8d155e564353762272f4bfb209dd9752674730dfb64d46efee8e910cb2bdf662c8dff5" target="_blank" style="display: block;" rel="noopener">
+                                                                      <img class="cntr-bp320" style="display: block; border: none;" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/32/logo-header-PlayStation.png" alt="PlayStation" width="50">
+                                                                    </a>
+                                                                  </th>
+                                                                  <th class="block-bp320 w100-bp320 h20" style="width: 20px; height: 30px;" width="20" height="30">&nbsp;</th>
+                                                                  <th class="block-bp320 w100-bp320 hauto-bp320 text-center-bp320 fs20" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 22px; line-height: 26px; color: #ffffff; font-weight: normal; text-align: left; direction: ltr;">PlayStation</th>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td class="h15" style="height: 0px; line-height: 0px; mso-line-height-rule: exactly;" height="0">&nbsp;</td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+      <!-- [if gte mso 9]>
+                                      </v:textbox>
+                                      </v:rect>
+                                      <![endif]-->
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="height: 1px; line-height: 1px; font-size: 0px; mso-line-height-rule: exactly; background-color: #003a9d;" bgcolor="#003a9d" height="1">
+                                  <img src="https://click.playstationemail.com/open.aspx?ffcb10-fec610787366077f-fe501c7771610d787216-fe9c12717065047e76-ff951579-fe5a13777767027d7312-ff2f1770716d&amp;d=60204&amp;bmt=0" alt="" width="1" height="1"> <!-- -->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="background-color: #003a9d;" align="center" valign="top" bgcolor="#003a9d">
+                                  <img class="w100 hauto" style="display: block; border: none; background-color: #003a9d;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-header-diagonal-1v2.jpg?no_cache=0" alt="" width="740">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+      <!--  -->
+                          <table class="responsive" style="width: 100%; min-width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table class="responsive" style="width: 740px;" border="0" width="740" cellspacing="0" cellpadding="0" align="center" bgcolor="#EEEEEE">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <table id="module-wrapper" class="w85 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                            <tbody>
+                                              <tr>
+                                                <td class="mobile-module-spacers" style="height: 40;" bgcolor="#EEEEEE" height="40">&nbsp;</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                  <table id="module-hero-3A" class="w100 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody><!-- -->
+                                                      <tr class="imagearea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF"><!-- --> 
+                                                          <a class="link_main" href="https://click.playstationemail.com/?qs=2ea9c183cf38b831c7d28d2efe57b04b950510be48bccde642601bb00a392431680e236a3c34f668eb80f0e226340aae1198a1a3cdea25f0"><!-- --> 
+                                                            <img class="responsive hauto hide" style="display: block; border: none;" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/46/20af9d75-2aba-4017-9294-ea262ada2a25.jpg?no_cache=0" width="640"> <!-- --> <!-- [if !mso]><!-->
+                                                          </a>
+                                                          <div class="mobile_image" style="mso-hide: all; display: none; max-height: 0px; overflow: hidden;">
+                                                            <img class="responsive hauto" style="display: block; border: none; mso-hide: all;" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/46/9ad895c0-79e7-47b7-9225-8247ba87d146.jpg?no_cache=0" width="100%">
+                                                          </div>
+                                                          <a class="link_main" href="https://click.playstationemail.com/?qs=2ea9c183cf38b831c7d28d2efe57b04b950510be48bccde642601bb00a392431680e236a3c34f668eb80f0e226340aae1198a1a3cdea25f0"><!--<![endif]--> <!-- --> <!-- --></a> <!-- -->
+                                                        </td>
+                                                      </tr>
+      <!-- --> <!-- -->
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff; padding-top: 10px; padding-bottom: 10px;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                          <table class="w85 cntr" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+                                                            <tbody class="inline-block"><!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="hero-title-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 22px; line-height: 32px; mso-line-height-rule: exactly; color: #0072ce; direction: ltr; padding-bottom: 10px;" align="center" valign="top">See what the critics are saying</td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="paragraph-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; mso-line-height-rule: exactly; color: #363636; direction: ltr; padding-bottom: 10px;" align="center" valign="top">
+                                                                  <strong>God of War Ragnarök</strong> has arrived on PS4™ and PS5™ consoles. Witness as Kratos and Atreus struggle with holding on and letting go – all while trying their utmost to undo the approaching end times. 
+                                                                  <br>
+                                                                  <br>See what everyone’s saying about this epic and heartfelt journey through all Nine Realms.
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td align="center" valign="top">
+                                                                  <table class="w100 cntr" border="0" width="100%" cellspacing="0" cellpadding="0"><!-- -->
+                                                                    <tbody>
+                                                                      <tr class="stacked_cta1_show_optional_hide_optional">
+                                                                        <td class="mobile-module-inner-spacing-bottom-20" style="padding-top: 7px; padding-bottom: 10px;" align="center" valign="top">
+                                                                          <table id="txt-align-cntr" class="cntr cta-wrapper-mobile-css" style="text-align: center; min-width: 100px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <td style="height: 1px; line-height: 1px; mso-line-height-rule: exactly; display: block;" align="center" height="1"><!-- [if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="width:100px;height:1px;">
+      <![endif]--> 
+                                                                                  <img class="cta-width-spacer" style="display: block; width: 100px; height: 1px;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-spacer.gif" alt="" width="100" height="1"> <!-- [if gte mso 9]>
+              </v:rect>
+              <![endif]-->
+                                                                                </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <td class="cta-mobile-padding-css cta-mobile-css cta-hover_2D64E6_ON" dir="ltr" style="border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px; background-color: #2d64e6; font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; min-height: auto; line-height: 24px; mso-line-height-rule: exactly; direction: ltr; padding: 8px 14px 8px 14px;" align="center" bgcolor="#2D64E6">
+                                                                                  <a class="cta-mobile-css" href="https://click.playstationemail.com/?qs=af9ca0d675ff879d773fd960d7961095e3e0cf6015a3c88460b8e78d27f1369251bb4be386743eb33c099a2315697c2b526b98ba4f6cbc53" style="display: inline-block; font-size: 16px; color: #ffffff; text-decoration: none; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif;">
+                                                                                    <span class="cta-mobile-css" style="text-decoration: none; font-size: 16px; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif; color: #ffffff;">Watch trailer</span>
+                                                                                  </a>
+                                                                                </td>
+                                                                              </tr>
+      <!-- -->
+                                                                            </tbody>
+                                                                          </table>
+                                                                        </td>
+                                                                      </tr>
+      <!-- --> <!-- -->
+                                                                    </tbody>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td class="hide" style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+      <!-- -->
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+      <!--  -->  <!--  -->
+                          <table class="responsive" style="width: 100%; min-width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table class="responsive" style="width: 740px;" border="0" width="740" cellspacing="0" cellpadding="0" align="center" bgcolor="#EEEEEE">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <table id="module-wrapper" class="w85 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                            <tbody>
+                                              <tr>
+                                                <td class="mobile-module-spacers" style="height: 40;" bgcolor="#EEEEEE" height="40">&nbsp;</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                  <table id="module-hero-3A" class="w100 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody><!-- -->
+                                                      <tr class="imagearea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF"><!-- --> 
+                                                          <a class="link_main" href="https://click.playstationemail.com/?qs=886d21c28472eb75f66e297a4813bb9188b811a99c7e6b9d82441cd65d2c4f7a187829203fd78a487801ba9fe3e6d11d144300a681e20788"><!-- --> 
+                                                            <img class="responsive hauto hidNO" style="display: block; border: none;" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/46/316dc596-47be-4649-b444-6f3d941cf4a6.jpg?no_cache=0" width="640"> <!-- --> <!-- -->
+                                                          </a> <!-- -->
+                                                        </td>
+                                                      </tr>
+      <!-- --> <!-- -->
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff; padding-top: 10px; padding-bottom: 10px;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                          <table class="w85 cntr" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+                                                            <tbody class="inline-block"><!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="hero-title-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 22px; line-height: 32px; mso-line-height-rule: exactly; color: #0072ce; direction: ltr; padding-bottom: 10px;" align="center" valign="top">Don’t go unprepared</td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="paragraph-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; mso-line-height-rule: exactly; color: #363636; direction: ltr; padding-bottom: 10px;" align="center" valign="top">Visit the 
+                                                                  <strong>God of War Ragnarök</strong> page on 
+                                                                  <a href="https://click.playstationemail.com/?qs=99e5a37e63c6870867c21ac9d96ae1471a9f88365749402b838cdc98626c5865e53003cd9497fc034778c65430fdce2b302e3ddabfec95cb" style="text-decoration: none;">PlayStation.com</a> for everything you need to know. That includes an interactive map to help you get your bearings, as well as helpful Family Portraits which illustrate various factions, each united by their own family ties.
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td align="center" valign="top">
+                                                                  <table class="w100 cntr" border="0" width="100%" cellspacing="0" cellpadding="0"><!-- -->
+                                                                    <tbody>
+                                                                      <tr class="stacked_cta1_show_optional_hide_optional">
+                                                                        <td class="mobile-module-inner-spacing-bottom-20" style="padding-top: 7px; padding-bottom: 10px;" align="center" valign="top">
+                                                                          <table id="txt-align-cntr" class="cntr cta-wrapper-mobile-css" style="text-align: center; min-width: 100px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <td style="height: 1px; line-height: 1px; mso-line-height-rule: exactly; display: block;" align="center" height="1"><!-- [if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="width:100px;height:1px;">
+      <![endif]--> 
+                                                                                  <img class="cta-width-spacer" style="display: block; width: 100px; height: 1px;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-spacer.gif" alt="" width="100" height="1"> <!-- [if gte mso 9]>
+              </v:rect>
+              <![endif]-->
+                                                                                </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <td class="cta-mobile-padding-css cta-mobile-css cta-hover_2D64E6_ON" dir="ltr" style="border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px; background-color: #2d64e6; font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; min-height: auto; line-height: 24px; mso-line-height-rule: exactly; direction: ltr; padding: 8px 14px 8px 14px;" align="center" bgcolor="#2D64E6">
+                                                                                  <a class="cta-mobile-css" href="https://click.playstationemail.com/?qs=3e6def25220e86965d34c4ade11ddf544617a25e3517e37bdc6d2f8577d6e5e5db6d8ed1110f306cd9cf18ee43cd5e5e7567151b91943aca" style="display: inline-block; font-size: 16px; color: #ffffff; text-decoration: none; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif;">
+                                                                                    <span class="cta-mobile-css" style="text-decoration: none; font-size: 16px; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif; color: #ffffff;">Find out more</span>
+                                                                                  </a>
+                                                                                </td>
+                                                                              </tr>
+      <!-- -->
+                                                                            </tbody>
+                                                                          </table>
+                                                                        </td>
+                                                                      </tr>
+      <!-- --> <!-- -->
+                                                                    </tbody>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td class="hide" style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+      <!-- -->
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+      <!--  -->  <!--  -->  <!--  -->
+                          <table class="responsive" style="width: 100%; min-width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table class="responsive" style="width: 740px;" border="0" width="740" cellspacing="0" cellpadding="0" align="center" bgcolor="#EEEEEE">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <table id="module-wrapper" class="w85 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                            <tbody>
+                                              <tr>
+                                                <td class="mobile-module-spacers" style="height: 40;" bgcolor="#EEEEEE" height="40">&nbsp;</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                  <table id="module-hero-3A" class="w100 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody><!-- -->
+                                                      <tr class="imagearea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF"><!-- --> 
+                                                          <a class="link_main" href="https://click.playstationemail.com/?qs=85c95073773fc42a5a21e18abf1497b6b92468d9eb43e461eaa9ef87d90261ec18b35cd2657f684e362a39f95a448e7b8bdef45dbd694e9a"><!-- --> 
+                                                            <img class="responsive hauto hidNO" style="display: block; border: none;" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/46/414472c5-1d57-421c-94d8-cab5be83c01d.jpg" width="640"> <!-- --> <!-- -->
+                                                          </a> <!-- -->
+                                                        </td>
+                                                      </tr>
+      <!-- --> <!-- -->
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff; padding-top: 10px; padding-bottom: 10px;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                          <table class="w85 cntr" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+                                                            <tbody class="inline-block"><!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="hero-title-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 22px; line-height: 32px; mso-line-height-rule: exactly; color: #0072ce; direction: ltr; padding-bottom: 10px;" align="center" valign="top">God of War Ragnarök bundle</td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="paragraph-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; mso-line-height-rule: exactly; color: #363636; direction: ltr; padding-bottom: 10px;" align="center" valign="top">Gear up for your journey to the Nine Realms with this God of War Ragnarök PlayStation 5 bundle. Includes a PS5 console, a DualSense™ wireless controller, and a voucher code to download the full game from PlayStation™Store. 
+                                                                  <br>
+                                                                  <br>Your epic quest begins here.
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td align="center" valign="top">
+                                                                  <table class="w100 cntr" border="0" width="100%" cellspacing="0" cellpadding="0"><!-- -->
+                                                                    <tbody>
+                                                                      <tr class="stacked_cta1_show_optional_hide_optional">
+                                                                        <td class="mobile-module-inner-spacing-bottom-20" style="padding-top: 7px; padding-bottom: 10px;" align="center" valign="top">
+                                                                          <table id="txt-align-cntr" class="cntr cta-wrapper-mobile-css" style="text-align: center; min-width: 100px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <td style="height: 1px; line-height: 1px; mso-line-height-rule: exactly; display: block;" align="center" height="1"><!-- [if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="width:100px;height:1px;">
+      <![endif]--> 
+                                                                                  <img class="cta-width-spacer" style="display: block; width: 100px; height: 1px;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-spacer.gif" alt="" width="100" height="1"> <!-- [if gte mso 9]>
+              </v:rect>
+              <![endif]-->
+                                                                                </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <td class="cta-mobile-padding-css cta-mobile-css cta-hover_CD3D0F_ON" dir="ltr" style="border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px; background-color: #cd3d0f; font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; min-height: auto; line-height: 24px; mso-line-height-rule: exactly; direction: ltr; padding: 8px 14px 8px 14px;" align="center" bgcolor="#CD3D0F">
+                                                                                  <a class="cta-mobile-css" href="https://click.playstationemail.com/?qs=c4cc246118283bf7806b082c287de2154ea90dec19eecdbd72f3a86205b1650287603a6b7c2a6182d91cbd80ed5c683083b55cdb6f4c9957" style="display: inline-block; font-size: 16px; color: #ffffff; text-decoration: none; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif;">
+                                                                                    <span class="cta-mobile-css" style="text-decoration: none; font-size: 16px; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif; color: #ffffff;">Shop now</span>
+                                                                                  </a>
+                                                                                </td>
+                                                                              </tr>
+      <!-- -->
+                                                                            </tbody>
+                                                                          </table>
+                                                                        </td>
+                                                                      </tr>
+      <!-- --> <!-- -->
+                                                                    </tbody>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td class="hide" style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+      <!-- -->
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+      <!--  -->  <!--  -->
+                          <table class="responsive" style="width: 100%; min-width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table class="responsive" style="width: 740px;" border="0" width="740" cellspacing="0" cellpadding="0" align="center" bgcolor="#EEEEEE">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <table id="module-wrapper" class="w85 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                            <tbody>
+                                              <tr>
+                                                <td class="mobile-module-spacers" style="height: 40;" bgcolor="#EEEEEE" height="40">&nbsp;</td>
+                                              </tr>
+                                              <tr>
+                                                <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                  <table id="module-hero-3A" class="w100 cntr" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody><!-- -->
+                                                      <tr class="imagearea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF"><!-- --> 
+                                                          <a class="link_main" href="https://click.playstationemail.com/?qs=8fc7685c9208708461c2bfc7b1aa5ed9214a4b99127d72bbd0736e54c1cb7a1b9b8489a23d2e69ef2b94906eae965153082ffd0d6c6c482b"><!-- --> 
+                                                            <img class="responsive hauto hidNO" style="display: block; border: none;" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/46/f1de43d2-a096-4511-9cfa-ec5db76c72a4.png?no_cache=0" width="640"> <!-- --> <!-- -->
+                                                          </a> <!-- -->
+                                                        </td>
+                                                      </tr>
+      <!-- --> <!-- -->
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td style="background-color: #ffffff; padding-top: 10px; padding-bottom: 10px;" align="center" valign="top" bgcolor="#FFFFFF">
+                                                          <table class="w85 cntr" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+                                                            <tbody class="inline-block"><!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="hero-title-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 22px; line-height: 32px; mso-line-height-rule: exactly; color: #0072ce; direction: ltr; padding-bottom: 10px;" align="center" valign="top">Experience the journey of Kratos</td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td class="paragraph-mobile-css" dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; mso-line-height-rule: exactly; color: #363636; direction: ltr; padding-bottom: 10px;" align="center" valign="top">Find out more about where Kratos is coming from – head to the God of War Hub on 
+                                                                  <a href="https://click.playstationemail.com/?qs=4254d3536cad38636d7580e3e7d1eaf093c2d108afeed060dea63048b3ebacd83fdc3be3e4777fbdf7fd117bc477a3e8eae8f1d3c78459c5" style="text-decoration: none;">PlayStation.com</a> and experience the roots of this epic series for yourself. Discover previous games, get a glimpse of behind the scenes videos and connect with the passionate community of fans around the world!
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                              <tr class="show_optional">
+                                                                <td align="center" valign="top">
+                                                                  <table class="w100 cntr" border="0" width="100%" cellspacing="0" cellpadding="0"><!-- -->
+                                                                    <tbody>
+                                                                      <tr class="stacked_cta1_show_optional_hide_optional">
+                                                                        <td class="mobile-module-inner-spacing-bottom-20" style="padding-top: 7px; padding-bottom: 10px;" align="center" valign="top">
+                                                                          <table id="txt-align-cntr" class="cntr cta-wrapper-mobile-css" style="text-align: center; min-width: 100px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <td style="height: 1px; line-height: 1px; mso-line-height-rule: exactly; display: block;" align="center" height="1"><!-- [if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="width:100px;height:1px;">
+      <![endif]--> 
+                                                                                  <img class="cta-width-spacer" style="display: block; width: 100px; height: 1px;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-spacer.gif" alt="" width="100" height="1"> <!-- [if gte mso 9]>
+              </v:rect>
+              <![endif]-->
+                                                                                </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                <td class="cta-mobile-padding-css cta-mobile-css cta-hover_CD3D0F_ON" dir="ltr" style="border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px; background-color: #cd3d0f; font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; min-height: auto; line-height: 24px; mso-line-height-rule: exactly; direction: ltr; padding: 8px 14px 8px 14px;" align="center" bgcolor="#CD3D0F">
+                                                                                  <a class="cta-mobile-css" href="https://click.playstationemail.com/?qs=bb6db7393e0fab73b82857048d00e5931707463351e23cf28c502023918e18fabe88519312bacc32b16802405d1d993aa07a1edf4f0f5164" style="display: inline-block; font-size: 16px; color: #ffffff; text-decoration: none; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif;">
+                                                                                    <span class="cta-mobile-css" style="text-decoration: none; font-size: 16px; font-family: SST-Roman-Bold, SST, SST-Roman, Arial, Helvetica, sans-serif; color: #ffffff;">Visit the Hub</span>
+                                                                                  </a>
+                                                                                </td>
+                                                                              </tr>
+      <!-- -->
+                                                                            </tbody>
+                                                                          </table>
+                                                                        </td>
+                                                                      </tr>
+      <!-- --> <!-- -->
+                                                                    </tbody>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- -->
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                      <tr class="copyarea_show_image_and_copyarea">
+                                                        <td class="hide" style="height: 13px; line-height: 13px; mso-line-height-rule: exactly; font-size: 0px; display: block;" height="13">&nbsp;</td>
+                                                      </tr>
+      <!-- -->
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+      <!--  -->  <!--  -->
+                          <table class="responsive" style="width: 100%; min-width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table id="footer-section" class="responsive" border="0" width="740" cellspacing="0" cellpadding="0" align="center"><!-- FOOTER PART 1: CONTENT WRAPPER: start -->
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding-top: 40px;" align="center" valign="top" bgcolor="#EEEEEE">
+                                          <table class="responsive" border="0" width="740" cellspacing="0" cellpadding="0" align="center" bgcolor="#003a9d">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" valign="top">
+                                                  <img class="w100 hauto" style="display: block; border: none; background-color: #003a9d;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-footer-diagonal-1v3.jpg" alt="" width="740">
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="center" valign="top" bgcolor="#003a9d">
+                                                  <table class="responsiveInner" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td class="cntr" style="border-bottom: 1px solid #0072ce;" align="center" valign="top">
+                                                          <table class="responsiveInner bp600-w90 cntr" border="0" width="640" cellspacing="0" cellpadding="0">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td style="padding-top: 5px;" align="center" valign="top">
+                                                                  <table class="cntr" border="0" cellspacing="0" cellpadding="0" align="left">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td class="w100 cntr" style="vertical-align: top; padding-bottom: 0px;" align="left" valign="top">
+                                                                          <a href="https://click.playstationemail.com/?qs=306a052fcaaa2517959c02b403be3c9ace460eb8896189ff692c90a375368452f1a5c100eb7c1944dba61489dfe1ed79dd1744f6ab9f69f4">
+                                                                            <img class="cntr" style="display: block; border: none;" src="https://image.playstationemail.com/lib/fe9c12717065047e76/m/36/footer-white_PlayStation.png" alt="PlayStation" width="40">
+                                                                          </a>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+      <!-- -->
+                                                                  <table class="w100 cntr show_optional" border="0" cellspacing="0" cellpadding="0" align="right">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td class="w100 cntr" style="vertical-align: top; padding-bottom: 17px;" align="center" valign="top">
+                                                                          <a href="https://click.playstationemail.com/?qs=e0aaae1243344a59769df159f26e437b841c81c561169c5c41d39d9cddb26e553fb4b2a3dbd795fd26586b5a1efadc78f30d9ecca493a8ee">
+                                                                            <img class="cntr" style="display: block; border: none;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/127/PHNL_TAGLINE_DESKTOP_EN.png" alt="PLAY HAS NO LIMITS" height="44">
+                                                                          </a>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+      <!-- -->
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+      <!-- -->
+                                                      <tr class="show_optional">
+                                                        <td class="w100 display-table m-t-20" style="padding-top: 20px;" align="center" valign="top">
+                                                          <table class="w100 cntr display-table cntr-bp320" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                            <tbody class="display-table cntr-bp320 w100">
+                                                              <tr>
+                                                                <td class="cntr" style="vertical-align: middle;" align="left" valign="middle" height="50">
+                                                                  <table class="cntr" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td align="center" valign="middle" width="45">
+                                                                          <a href="https://click.playstationemail.com/?qs=1bacf52c0be60216524a0e3a7cc1df899ffd7647252a893d1fcc454e24409aa8bf182de6a766375f256330d41b8684ced8af65b68ceec017" target="_blank" rel="noopener">
+                                                                            <img style="display: block; border: none; margin: auto;" src="http://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-socialicon-white-twitter.png" alt="twitter" width="30">
+                                                                          </a>
+                                                                        </td>
+                                                                        <td align="center" valign="middle" width="45">
+                                                                          <a href="https://click.playstationemail.com/?qs=ac6f75b8839314e80330a076209bfd08643fdb13730c50895572358bcfb3e5f3affee5837240b5f205deb12726e9b993f1e23df18e6cf24c">
+                                                                            <img style="display: block; border: none; margin: auto;" src="http://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-socialicon-white-instagram.png" alt="instagram" width="30">
+                                                                          </a>
+                                                                        </td>
+                                                                        <td align="center" valign="middle" width="45">
+                                                                          <a href="https://click.playstationemail.com/?qs=99c9ab7782de18f369797c265aa81a7dbbd98328e365854c6cd2d311b0485d2aca155aa1e26dd0f0d9e080a2d2b071e5f908d98512cde229">
+                                                                            <img style="display: block; border: none; margin: auto;" src="http://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-socialicon-white-youtube.png" alt="youtube" width="30">
+                                                                          </a>
+                                                                        </td>
+                                                                        <td align="center" valign="middle" width="45">
+                                                                          <a href="https://click.playstationemail.com/?qs=fdd16f4478ab581f41aa996b01cbfd638e4738adb71f6ffa4e04f19ebac85ad529c9480566d8597cb979420b1a6112615e6147de060520fe">
+                                                                            <img style="display: block; border: none; margin: auto;" src="http://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-socialicon-white-facebook.png" alt="facebook" width="30">
+                                                                          </a>
+                                                                        </td>
+                                                                        <td align="center" valign="middle" width="45">
+                                                                          <a href="https://click.playstationemail.com/?qs=b3125b6cfbb6a29ff049556e96b30cd4f68a1d826fb69fa1b54f4db16dde0340e4a368bfbaa40f1d2a6f5722ca229b036de173f951ce59d3">
+                                                                            <img style="display: block; border: none; margin: auto;" src="http://image.playstationemail.com/lib/fe8e12717267007872/m/127/mb-socialicon-white-snapchat.png" alt="snapchat" width="30">
+                                                                          </a>
+                                                                        </td>
+      <!-- --><!-- -->
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- --> <!-- -->
+                                                              <tr id="siee_rating_show_optional" class="global-USCA-M rating_show_optional">
+                                                                <td class="pad0" style="padding: 10px 0px;" align="center" valign="middle">
+                                                                  <table class="cntr" style="border: 3px solid #000000;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td align="center" valign="top" bgcolor="#000000">
+                                                                          <table class="cntr" border="0" cellspacing="0" cellpadding="0" align="left">
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <td style="display: table;" align="center" valign="top" bgcolor="#000000" width="60">
+                                                                                  <a href="https://click.playstationemail.com/?qs=8ec1acd9d8c13204ecca0f4c211d6895b8fdc06d50d8ae1e1fef7422b1b5d9e6d939eb477e09a498872facf0516292f4f195715644a56e32">
+                                                                                    <img style="display: inline-block; border: none;" src="https://image.playstationemail.com/lib/fe8e12717267007872/m/128/mb-gamerating-global-USCA-M.png" alt="Game Rating" height="90">
+                                                                                  </a>
+                                                                                </td>
+      <!-- -->
+                                                                                <td class="show_optional" align="left" valign="middle" bgcolor="#FFFFFF" height="90">
+                                                                                  <table class="show_optional" border="0" width="200" cellspacing="0" cellpadding="0" align="left">
+                                                                                    <tbody>
+                                                                                      <tr>
+                                                                                        <td style="padding: 7px; background-color: #ffffff; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 13px; line-height: 16px; word-wrap: normal;" align="left" valign="middle" bgcolor="#FFFFFF">Blood and Gore 
+                                                                                          <br>Intense Violence 
+                                                                                          <br>Strong Language
+                                                                                        </td>
+                                                                                      </tr>
+                                                                                    </tbody>
+                                                                                  </table>
+                                                                                </td>
+      <!-- -->
+                                                                              </tr>
+                                                                            </tbody>
+                                                                          </table>
+                                                                        </td>
+                                                                      </tr>
+      <!-- --> <!-- -->
+                                                                    </tbody>
+                                                                  </table>
+                                                                </td>
+                                                              </tr>
+      <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
+                                                            </tbody>
+                                                          </table>
+      <!-- -->
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td style="padding-bottom: 20px;" align="center" valign="top">
+                                                          <table class="w100 float-r cntr m-t-10 cntr-bp320 m-b-20-bp320" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                            <tbody class="w100 display-table">
+                                                              <tr>
+                                                                <td class="cntr p-t-0" dir="**global-text-direction-ARABIC-RTL**" style="direction: **global-text-direction-ARABIC-RTL**; vertical-align: middle; padding-top: 10px;" align="center" valign="middle">
+                                                                  <a href="https://view.playstationemail.com/?qs=3aaa85fb78cffb68a086b401daa7f463d5c9920e8d7561e255d9b5b2ef7a4b1249d3537736f596d601b9b582b005791ae1ec563b90b19d67135a894cdb6eabbb78cd1519d387f5bf29bf7ac75198d00a" style="color: #ffffff; text-decoration: none;" class="footer-links">
+                                                                    <span style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 22px; color: #ffffff;">View online</span>
+                                                                  </a> <!-- --> 
+                                                                  <span class="hide-bp320 terms_show_optional" style="font-size: 11px; line-height: 22px; color: #0072ce;">&nbsp; | &nbsp;</span> 
+                                                                  <a href="https://click.playstationemail.com/?qs=bcc377fd62ee77252f622fa64d9427132f28d728e74f898991ed8e5c00329fbd7ec7b3d3da6255e860a307cc31e7bb669c258f4c3243c1cd" style="color: #ffffff; text-decoration: none;" class="footer-links terms_show_optional">
+                                                                    <span style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 22px; color: #ffffff;">Terms</span>
+                                                                  </a> <!-- --> <!-- --> 
+                                                                  <span class="hide-bp320 personalise_show_optional" style="font-size: 11px; line-height: 22px; color: #0072ce;">&nbsp; | &nbsp;</span> 
+                                                                  <a href="https://click.playstationemail.com/?qs=c043c6daccd67bbae2c1dd8e0ac3a6f836b5d753f720512971a987a8c9d6a0c46b40190aa9dac8b2a984178d34a25158ff4c47dd35ae3dd9" style="color: #ffffff; text-decoration: none;" class="footer-links personalise_show_optional">
+                                                                    <span style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 22px; color: #ffffff;">Personalize</span>
+                                                                  </a> <!-- --> <!-- --> 
+                                                                  <span class="hide-bp320 unsubscribe_show_optional" style="font-size: 11px; line-height: 22px; color: #0072ce;">&nbsp; | &nbsp;</span> 
+                                                                  <a href="https://click.playstationemail.com/?qs=261083b7895b177d5966421bb4729bd537def1c80fab3bc02ab39755dce70e904ad01bae139a82bae814986939bc1c3b14713b6537c1eb3b" style="color: #ffffff; text-decoration: none;" class="footer-links unsubscribe_show_optional">
+                                                                    <span style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 22px; color: #ffffff;">Unsubscribe</span>
+                                                                  </a> <!-- -->
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+      <!-- FOOTER PART 1: CONTENT WRAPPER: end --> <!-- FOOTER PART 2: CONTENT WRAPPER: start -->
+                                      <tr>
+                                        <td align="center" valign="top">
+                                          <table class="responsive" border="0" width="740" cellspacing="0" cellpadding="0" align="center" bgcolor="#EEEEEE">
+                                            <tbody>
+                                              <tr>
+                                                <td style="padding-top: 20px; padding-bottom: 20px;" align="center" valign="top" bgcolor="#EEEEEE">
+                                                  <table class="responsiveInner" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="top"><!-- -->
+                                                          <table class="w95 cntr show_optional" border="0" width="640" cellspacing="0" cellpadding="0"><!-- --></table>
+      <!-- -->
+                                                          <table class="w95 cntr" border="0" width="640" cellspacing="0" cellpadding="0">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td dir="ltr" style="font-family: SST, SST-Roman, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 21px; color: #999999; direction: ltr;" align="center" valign="top"><!-- --> ©2022 Sony Interactive Entertainment LLC. 
+                                                                  <span style="height: 15px; line-height: 15px; mso-line-height-rule: exactly; display: block;">
+                                                                    <br>
+                                                                    <br>
+                                                                  </span> "PlayStation Family Mark", "PlayStation", "PS5", "PS4 logo" and "Play Has No Limits" are registered trademarks or trademarks of Sony Interactive Entertainment Inc. 
+                                                                  <span style="height: 15px; line-height: 15px; mso-line-height-rule: exactly; display: block;">
+                                                                    <br>
+                                                                    <br>
+                                                                  </span> All games featured are trademarked and copyrighted properties of their respective publishers and/or licensors. 
+                                                                  <span style="height: 15px; line-height: 15px; mso-line-height-rule: exactly; display: block;">
+                                                                    <br>
+                                                                    <br>
+                                                                  </span>  <!-- --> 
+                                                                  <span class="noreply_marketing_show_optional">This e-mail message has been delivered from a send-only address. Please do not reply to this message. For more information about your account, please visit the link below. Support: 
+                                                                    <a href="https://click.playstationemail.com/?qs=b57e7ca305e46b64d75da969a2a324bb3fe545f44ea5c26d32a6325252b5d9a0f966f26337611801ca7d7bbd06a66ea1e92bd825fae8193c" style="text-decoration: underline; color: #999999;">https://www.playstation.com/corporate/contactus/</a> 
+                                                                    <span style="height: 15px; line-height: 15px; mso-line-height-rule: exactly; display: block;">
+                                                                      <br>
+                                                                      <br>
+                                                                    </span>
+                                                                  </span> <!-- --> <!-- --> Sony Interactive Entertainment LLC, 2207 Bridgepointe Pkwy, San Mateo, CA 94404, USA 
+                                                                  <br>
+                                                                  <a style="color: #999999;" href="https://click.playstationemail.com/?qs=68c83b77ca4d20ef91e73c6f68282c070ff714746b49e96305f285a6b194d6d90147196805bc319f747eb8e6bef3f2d21cf93067f1876396">www.playstation.com</a>.
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+      <!-- FOOTER PART 2: CONTENT WRAPPER: end -->
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+      <!--  -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+      </div>
+      
 </body>
 </html>
